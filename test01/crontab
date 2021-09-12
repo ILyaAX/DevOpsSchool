@@ -1,0 +1,10 @@
+# Примеры запуска crontab
+
+crontab -e 
+
+    # запуск каждую минуту
+* * * * * /home/ubuntu/test_01/test01.sh
+    # запуск каждый час
+0 * * * * /home/ubuntu/test_01/test01.sh
+    # запуск каждый день в 23:59
+59 23 * * * /home/ubuntu/test_01/test01.sh
